@@ -332,7 +332,7 @@ font-weight: 900;
 /*Media Queries*/
 @media screen and (max-width:376px) {
     .carousel-caption{
-        top: -5%!important;
+        top: -3%!important;
         width: 0%
     }
     
