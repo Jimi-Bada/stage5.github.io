@@ -335,6 +335,9 @@ font-weight: 900;
         top: -3%!important;
         width: 0%
     }
+    .carousel-caption p{
+        display: none
+    }
     
 }
 @media screen and (min-width:424px) and (max-width:769px){
