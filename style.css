@@ -121,14 +121,10 @@ a{
     height: 100px;
 }
 /* Media Queries*/
-@media screen and (min-width:424px) and (max-width:850px){
-    .carousel-caption{
-        width: 59%;
-    }
-}
-@media screen and (max-width:424px){
+@media screen and (max-width:850px){
     .carousel-caption{
         width: 68%;
     }
 }
+
 
