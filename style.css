@@ -131,13 +131,4 @@ a{
         width: 68%;
     }
 }
-@media screen and (max-width:330px) {
-    .carousel-caption{
-        top: 21%!important;
-    }  
-}
-@media screen and (max-width:456px) {
-    .btn{
-        margin-top: 0!important;
-    }  
-}
+
