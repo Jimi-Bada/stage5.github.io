@@ -52,15 +52,6 @@ a{
     transition: 0.3s;
 }
 /*About Us*/
-#about .play-btn {
-    width: 94px;
-    height: 94px;
-    background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
-    border-radius: 50%;
-    left: calc(50% - 47px);
-    top: calc(50% - 47px);
-    overflow: hidden;
-}
 #about .icon-box .icon {
     float: left;
     width: 72px;
