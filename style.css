@@ -8,27 +8,15 @@ a{
 }
 /*Top Bar*/
 #top-bar {
-    background: #fff;
-    border-bottom: 1px solid #eee;
     height: 40px;
 }
-#top-bar .contact-info i{
-    color: #428bca;
-   
-}
 #top-bar .contact-info a {
-    color: #444;
     transition: 0.3s;
 }
 #top-bar .social-links a {
-    color: #5c768d;
     transition: 0.3s;
 }
 /*Header*/
-.navbar-brand{
-    letter-spacing: 3px;
-    color: #1c5c93 !important;
-}
 .container a:hover {
     color: #1c5c93 !important;
     text-decoration: none;
@@ -41,40 +29,26 @@ a{
     right: 55%!important;
     top: 32%!important;
 }
-.btn{
-    background: #fff;
-    color: #000;  
-    border: #880808; 
-}
-.btn:hover{
-    background:#880808;
+.carousel-caption .btn:hover{
+    background: #880808, i !important;;
     border: #880808;
 }
 /*services*/
-.section-title h2 {
-    color: #5c768d;
-}
 #services .icon {
     width: 80px;
     height: 80px;
-    background: #fff;
     border-radius: 50%;
     transition: 0.5s;
-    color: #428bca;
     box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
     overflow: hidden;
 }
 #services .icon:hover{
-    box-shadow: 0px 0 40px  #428bca;
+    box-shadow: 0px 0 40px #880808 ;
 }
 #services .title a:hover{
-    color: #428bca;
-}
-#services .title { 
-    position: relative;
+    color:#880808 !important;
 }
 #services .title a {
-    color: #444;
     transition: 0.3s;
 }
 #services .title::after {
@@ -83,20 +57,16 @@ a{
     display: block;
     width: 50px;
     height: 2px;
-    background: #428bca;
+    background: #880808;
     bottom: 0;
     left: calc(50% - 25px);
 }
 /*About Us*/
-#about .video-box {
-    position: relative;
-}
 #about .play-btn {
     width: 94px;
     height: 94px;
     background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
     border-radius: 50%;
-    position: absolute;
     left: calc(50% - 47px);
     top: calc(50% - 47px);
     overflow: hidden;
@@ -126,67 +96,31 @@ a{
     border-left: 15px solid #fff;
     z-index: 100;
 }
-#about .section-title p {
-    color: #666;
-}
 #about .icon-box .icon {
     float: left;
     width: 72px;
     height: 72px;
-    background: #f1f7fb;
     border-radius: 6px;
     transition: 0.5s;
 }
-#about .icon-box .icon i {
-    color: #428bca;
-}
-.about-lists .row {
-    overflow: hidden;
-}
-.about-lists .content-item {
-    border-left: 1px solid #d9e8f4;
-    border-bottom: 1px solid #d9e8f4;
-}
-.about-lists .content-item span {
-    color: #9eccf4;
-}
-.about-lists .content-item p {
-    color: #aaaaaa;
-}
-.section-bg {
-    background-color: #f5f9fc;
-}
 .counts .count-box {
     box-shadow: 0px 0 16px rgb(0 0 0 / 10%);
-    background: #fff;
-}
-.counts .count-box span {
-    color: #1c5c93;
 }
 .counts .count-box p {
     font-family: "Raleway", sans-serif;
 }
 /* Contact */
 .contact .info-box {
-    color: #444;
     box-shadow: 0 0 30px rgb(214 215 216 / 60%);
     width: 100%;
 }
 .contact .info-box i {
-    color: #428bca;
     border-radius: 50%;
-    border: 2px dotted #9eccf4;
-}
-.contact .info-box h3 {
-    color: #666;
 }
 #inputRequest{
     height: 100px;
 }
-.button .btn{
-    background-color:#880808;  
-    color: #fff;
-}
+
 /* Media Queries*/
 @media screen and (max-width:850px) {
     .carousel-caption h5{
