@@ -61,18 +61,6 @@ a{
     top: calc(50% - 47px);
     overflow: hidden;
 }
-#about .play-btn::before {
-    content: "";
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    opacity: 1;
-    border-radius: 50%;
-    border: 5px solid rgba(66, 139, 202, 0.7);
-    top: -15%;
-    left: -15%;
-    background: rgba(198, 16, 0, 0);
-}
 #about .play-btn::after {
     content: "";
     position: absolute;
