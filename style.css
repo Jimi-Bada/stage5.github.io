@@ -10,43 +10,25 @@ a{
 #top-bar {
     background: #fff;
     border-bottom: 1px solid #eee;
-    font-size: 15px;
     height: 40px;
-    padding: 0;
 }
 #top-bar .contact-info i{
     color: #428bca;
-    line-height: 0;
-    margin-right: 5px;
+   
 }
 #top-bar .contact-info a {
-    line-height: 0;
     color: #444;
     transition: 0.3s;
 }
-#top-bar .contact-info .phone-icon {
-    margin-left: 15px;
-}
 #top-bar .social-links a {
     color: #5c768d;
-    padding: 4px 12px;
-    display: inline-block;
-    line-height: 1px;
     transition: 0.3s;
 }
 /*Header*/
 .navbar-brand{
-    font-size: 28px;
-    margin: 0;
-    padding: 10px 0;
-    line-height: 1;
-    font-weight: 400;
     letter-spacing: 3px;
-    text-transform: uppercase;
     color: #1c5c93 !important;
-    text-decoration: none;
 }
-
 .container a:hover {
     color: #1c5c93 !important;
     text-decoration: none;
@@ -59,12 +41,6 @@ a{
     right: 55%!important;
     top: 32%!important;
 }
-.carousel-caption h5{
-    color: #fff;
-margin-bottom: 30px;
-font-size: 48px;
-font-weight: 900;
-}
 .btn{
     background: #fff;
     color: #000;  
@@ -75,31 +51,12 @@ font-weight: 900;
     border: #880808;
 }
 /*services*/
-#services{
-    padding: 30px 0px;
-}
-.section-title {
-    text-align: center;
-    padding-bottom: 30px;
-}
 .section-title h2 {
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    padding-bottom: 0;
     color: #5c768d;
 }
-#services .icon-box {
-    margin-bottom: 20px;
-    text-align: center;
-}
 #services .icon {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     width: 80px;
     height: 80px;
-    margin-bottom: 20px;
     background: #fff;
     border-radius: 50%;
     transition: 0.5s;
@@ -107,22 +64,14 @@ font-weight: 900;
     box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
     overflow: hidden;
 }
-#services .icon i {
-    font-size: 36px;
-    line-height: 0;
-}
 #services .icon:hover{
     box-shadow: 0px 0 40px  #428bca;
 }
 #services .title a:hover{
     color: #428bca;
 }
-#services .title {
-    font-weight: 600;
-    margin-bottom: 15px;
-    font-size: 18px;
+#services .title { 
     position: relative;
-    padding-bottom: 15px;
 }
 #services .title a {
     color: #444;
@@ -138,14 +87,7 @@ font-weight: 900;
     bottom: 0;
     left: calc(50% - 25px);
 }
-#services .description {
-    line-height: 24px;
-    font-size: 14px;
-}
 /*About Us*/
-#about {
-    padding: 30px;
-}
 #about .video-box {
     position: relative;
 }
@@ -154,7 +96,6 @@ font-weight: 900;
     height: 94px;
     background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
     border-radius: 50%;
-    display: block;
     position: absolute;
     left: calc(50% - 47px);
     top: calc(50% - 47px);
@@ -185,34 +126,11 @@ font-weight: 900;
     border-left: 15px solid #fff;
     z-index: 100;
 }
-.about-lists,
-#about .about-content {
-    padding: 40px;
-}
-.section-title {
-    text-align: center;
-    padding-bottom: 30px;
-}
-.section-title h2 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    padding-bottom: 0;
-    color: #5c768d;
-}
 #about .section-title p {
-    text-align: left;
-    font-style: italic;
     color: #666;
-}
-.section-title p {
-    margin-bottom: 0;
 }
 #about .icon-box .icon {
     float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 72px;
     height: 72px;
     background: #f1f7fb;
@@ -221,106 +139,46 @@ font-weight: 900;
 }
 #about .icon-box .icon i {
     color: #428bca;
-    font-size: 32px;
-}
-#about .icon-box .title {
-    margin-left: 95px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-#about .icon-box .description {
-    margin-left: 95px;
-    line-height: 24px;
-    font-size: 14px;
-}
-#about .icon-box + .icon-box {
-    margin-top: 40px;
 }
 .about-lists .row {
     overflow: hidden;
 }
 .about-lists .content-item {
-    padding: 40px;
     border-left: 1px solid #d9e8f4;
     border-bottom: 1px solid #d9e8f4;
-    margin: -1px;
 }
 .about-lists .content-item span {
-    display: block;
-    font-size: 24px;
-    font-weight: 400;
     color: #9eccf4;
-}
-.about-lists .content-item h4 {
-    font-size: 28px;
-    font-weight: 400;
-    padding: 0;
-    margin: 20px 0;
 }
 .about-lists .content-item p {
     color: #aaaaaa;
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
-.counts {
-    padding: 30px;
 }
 .section-bg {
     background-color: #f5f9fc;
 }
 .counts .count-box {
     box-shadow: 0px 0 16px rgb(0 0 0 / 10%);
-    padding: 30px;
     background: #fff;
-    margin-bottom: 30px;
-}
-.counts .count-box i {
-    display: block;
-    font-size: 64px;
-    margin-bottom: 15px;
 }
 .counts .count-box span {
-    font-size: 42px;
-    display: block;
-    font-weight: 700;
     color: #1c5c93;
 }
 .counts .count-box p {
-    padding: 0;
-    margin: 0;
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
 }
 /* Contact */
 .contact .info-box {
     color: #444;
-    text-align: center;
     box-shadow: 0 0 30px rgb(214 215 216 / 60%);
-    padding: 20px 0 30px 0;
-    margin-bottom: 30px;
     width: 100%;
 }
 .contact .info-box i {
-    font-size: 32px;
     color: #428bca;
     border-radius: 50%;
-    padding: 8px 15px;
     border: 2px dotted #9eccf4;
 }
 .contact .info-box h3 {
-    font-size: 20px;
     color: #666;
-    font-weight: 700;
-    margin: 10px 0;
-}
-.contact .info-box p {
-    padding: 0;
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
 }
 #inputRequest{
     height: 100px;
@@ -329,7 +187,7 @@ font-weight: 900;
     background-color:#880808;  
     color: #fff;
 }
-/*Media Queries*/
+/* Media Queries*/
 @media screen and (max-width:850px) {
     .carousel-caption h5{
         margin-bottom: 0px;
@@ -359,13 +217,10 @@ font-weight: 900;
 @media screen and (max-width:330px) {
     .carousel-caption{
         top: 21%!important;
-    }
-    
+    }  
 }
 @media screen and (max-width:456px) {
     .btn{
         margin-top: 0!important;
-    }
-    
+    }  
 }
-    
