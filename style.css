@@ -51,16 +51,6 @@ a{
 #services .title a {
     transition: 0.3s;
 }
-#services .title::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 2px;
-    background: #880808;
-    bottom: 0;
-    left: calc(50% - 25px);
-}
 /*About Us*/
 #about .play-btn {
     width: 94px;
