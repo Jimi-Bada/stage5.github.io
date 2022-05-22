@@ -61,19 +61,6 @@ a{
     top: calc(50% - 47px);
     overflow: hidden;
 }
-#about .play-btn::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-40%) translateY(-50%);
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
-    z-index: 100;
-}
 #about .icon-box .icon {
     float: left;
     width: 72px;
